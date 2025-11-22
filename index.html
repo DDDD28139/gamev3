@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Love Gacha Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-box">
+        <h2>เข้าสู่ระบบ</h2>
+        <input id="username" type="text" placeholder="ชื่อผู้ใช้">
+        <button onclick="login()">เข้าสู่ระบบ</button>
+    </div>
+
+    <div id="app" style="display:none;">
+        <h1>Love Gacha</h1>
+        <button onclick="rollGacha()">สุ่มกาชา</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

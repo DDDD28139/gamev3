@@ -1,0 +1,19 @@
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #ffe6f2;
+}
+
+#login-box, #app {
+    margin-top: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff66a3;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
